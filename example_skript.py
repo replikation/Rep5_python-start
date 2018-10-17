@@ -3,11 +3,11 @@ a = b = c = 10
 
 print("To execute type this: python3  script.py")
 variable = "test input"
-for i in [1,2,3]:
+for i in [1, 2, 3]:
     print('%sbp' % i)
     print("____")
 print("loop is ended, wow")
-print (variable)
+print(variable)
 
-print (variable + "Test") #
+print(variable + "Test")  # doesnt work with numbers in it
 input("\n\nPress the enter key to exit.")
